@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+/**Head top bar**/
+.header-top {
+    width: 100%;
+    height: 45px;
+    padding: 0 100px;
+    position: fixed;
+    background-color: #002440;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: flex-start;
+}
+
+.head-nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1rem;
+    justify-content: space-evenly;
+}
+
+.head-nav i {
+    margin-bottom: 14px;
+    font-size: 19px;
+    margin-right: 5px;
+    color: white;
+}
+
+.head-nav-ncell {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.head-nav-ncell i{
+    margin-top: 2px;
+}
+
+.head-nav p {
+    margin-right: 50px;
+    justify-content: baseline;
+    padding-bottom: 10px;
+}
+
+.test {
+    display: flex;
+}
+
+.test i {
+    margin-top: 2px;
+    font-size: 19px;
+}
+
+/**start of left side in header i.e seoul flag**/
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+
+.seoul{
+    margin-top: 30px;
+}
+
+p i{
+    margin-right: 7px;
+}
+
+.p-content p{
+    font-size: 0.9rem;
+}
+
+/**start of right side of header**/
+.top-right{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    transform: translate(90%,-100%); 
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+}
+
+/**start of center part of header.**/
+.central {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/**start of marquee**/
+marquee{
+    background-color: #002440;
+    width: 100%;
+    height: 35px;
+    padding-top: 3px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.marquee{
+    display: flex;
+    position: relative;
+    transform: translate(0, -350%); 
+}
+
+.para{
+    background-color: rgb(81, 11, 11);
+    color: white;  
+    text-align: center;
+    width: 90px;
+    height: 35px;
+}
+
