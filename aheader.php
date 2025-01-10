@@ -18,15 +18,15 @@
   <style>
     .nav-link:hover {
       color: #1f90bb;
-      /* Change text color on hover */
+
       background-color: #1f90bb;
-      /* Change background color on hover */
+
       transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     .card:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      /* Adding shadow effect on hover */
+
     }
 
     footer {
